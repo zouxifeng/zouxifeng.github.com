@@ -1,0 +1,13 @@
+{% include header.html %}
+<div id="content">
+{{ content }}
+{% if paginator.page > 1 %}
+<div class="alignleft"><a href="{{ paginator.previous_page }}"></a></div>
+{% endif %}
+{% if paginator.page < paginator.total_pages %}
+<div class="alignright"><a href="{{ paginator.next_page }}"></a></div>
+{% endif %}
+<br clear="all" />
+</div><!--content-->
+{% include footer.html %}
+

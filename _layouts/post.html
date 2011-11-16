@@ -1,0 +1,10 @@
+{% include header.html %}
+<div id="content">
+<div id="post-{{ page.id }}">
+<h2><a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a></h2>
+<p><small>{{ page.date | date: "%Y年%m月%d日" }}</small></p>
+<p class="post">{{ content }}</p>
+{% if post.categories %}<p class="postmetadata">Posted in: {% for cat in post.categories %}<a href="" title="View all posts in {{ cat }}" rel="category tag">{{ cat }}</a>{% if forloop.index != forloop.length %}, {% endif %}{% endfor %}</p>{% endif %}
+</div><!--post-->
+</div><!--content-->
+{% include footer.html %}

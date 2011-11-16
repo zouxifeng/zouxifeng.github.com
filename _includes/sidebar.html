@@ -1,0 +1,55 @@
+<div id="sidebar">
+
+<div class="boxes">
+<h2>Author</h2>
+<p>小肉元子的爸是一个平凡的技术人</p>
+</div>
+
+<div class="boxes">
+<h2>Subscribe</h2>
+<a href="http://zouxifeng.github.com/rss.xml" rel="alternate" type="application/rss+xml" class="rss">Subscribe via RSS</a>
+</div>
+
+<!--
+<div class="boxes">
+<h2>Advertising</h2>
+<a href="#" class="ads"></a>
+<a href="#" class="ads"></a>
+<a href="#" class="ads"></a>
+</div>
+-->
+<br />
+
+<div id="lsidebar">
+<ul>
+            <li>
+        <h2>Categories</h2>
+            <ul>{% category_list %}</ul>
+        </li>
+      	
+        <li>
+        <h2>Archives</h2>
+            <ul>{% archive_list %}</ul>
+        </li>
+        
+        <li>
+        <h2>Links</h2>
+            <ul>
+             
+             </ul>
+        </li>
+	</ul>
+</div>
+
+<div id="rsidebar">
+<ul>
+             <li>
+      		  <h2>Recent Posts</h2>
+              <ul>
+              {% for post in site.posts limit:5 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+              </ul>
+           	 </li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
