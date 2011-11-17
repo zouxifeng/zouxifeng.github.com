@@ -63,9 +63,9 @@ html>body #content li { margin: 7px 0 8px 10px; }
 #nav ul li.date { float:right; }
 
 /*+++++++ CONTENT +++++++*/
-#content { float:left; width:580px; padding-right:10px; line-height:160%;}
+#content { float:left; width:630px; padding-right:10px; line-height:160%;}
 #content img {margin:0 10px 5px 0;}
-#sidebar { float:right; width:400px; }
+#sidebar { float:right; width:350px; }
 .boxes {background:url(images/line.png) bottom repeat-x; padding-bottom:10px; padding-top:10px;}
 .ads {margin-right:1px;}
 .ads img {border:2px solid #101010;}
@@ -139,4 +139,4 @@ html>body #content li { margin: 7px 0 8px 10px; }
 .imgright img{ padding:2px; border:1px solid #999999; height:100px; width:100px;}
 
 /*+++++++ Post add by me +++++++*/
-#post-content ol {padding: 0px 1em; list-style-position:: inside;}
+#post-content ol {padding: 0px 1em; list-style-position: inside;}
