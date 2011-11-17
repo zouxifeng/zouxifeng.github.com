@@ -8,7 +8,7 @@ Author URI: http://www.blogohblog.com
 */
 
 /*+++++++ BODY +++++++*/
-* { margin: 0px; padding: 0px; list-style:none; outline:none; text-decoration:none;}
+* { margin: 0px; padding: 0px; outline:none; text-decoration:none;}
 body { background:url(images/bkg.gif) repeat; font:14px Monaco, Verdana, Arial, Helvetica, sans-serif; color:#fff;}
 
 /*+++++++ H1,H2,H3 HYPERLINKS +++++++*/
@@ -77,7 +77,9 @@ html>body #content li { margin: 7px 0 8px 10px; }
 .subscribetext{color:#666;border:1px solid #9FC253;background:#9FC253; width:150px;padding:2px;}
 .subscribebutton {background-color:#72B6CF; border:none; font-size:11px; color:#000; font-weight:bold; padding:3px;}
 #lsidebar { width:170px; float:left;}
+#lsidebar ul {list-style: none;}
 #rsidebar { width:190px; float:right;}
+#rsidebar ul {list-style: none;}
 
 #content p { padding-bottom:10px;}
 #content h2 { font:24px Georgia, Times, serif; text-transform:capitalize; padding-bottom:10px; }
@@ -137,5 +139,4 @@ html>body #content li { margin: 7px 0 8px 10px; }
 .imgright img{ padding:2px; border:1px solid #999999; height:100px; width:100px;}
 
 /*+++++++ Post add by me +++++++*/
-.post ol {list-style-type: lower-alpha;}
-.post ul {list-style-type: square;}
+#post-content ol {padding: 0px 1em; list-style-position:: inside;}

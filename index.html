@@ -7,7 +7,7 @@ title: index
 <div id="post-id">
 <h2><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{ post.title }}</a></h2>
 <p class="info">{{ post.date | date: "%Y年%m月%d日" }}</p>
-<p class="post">{{ post.content }}</p>
+<div id="post-content">{{ post.content }}</div>
 {% if post.categories.size > 0 %}<p class="postmetadata">Posted in: {% for cat in post.categories %}<a href="/category/{{ cat }}/" title="View all posts in {{ cat }}" rel="category tag">{{ cat }}</a>{% if forloop.index != forloop.length %}, {% endif %}{% endfor %}</p>{% endif %}
 <div class="space"></div>
 </div><!--post-->
