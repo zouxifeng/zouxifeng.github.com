@@ -76,9 +76,9 @@ html>body #content li { margin: 7px 0 8px 10px; }
 .socialbar a:hover {color:#9fc253;}
 .subscribetext{color:#666;border:1px solid #9FC253;background:#9FC253; width:150px;padding:2px;}
 .subscribebutton {background-color:#72B6CF; border:none; font-size:11px; color:#000; font-weight:bold; padding:3px;}
-#lsidebar { width:170px; float:left;}
+#lsidebar { width:330px; float:left;}
 #lsidebar ul {list-style: none;}
-#rsidebar { width:190px; float:right;}
+#rsidebar { width:180px; float:right;}
 #rsidebar ul {list-style: none;}
 
 #content p { padding-bottom:10px;}
