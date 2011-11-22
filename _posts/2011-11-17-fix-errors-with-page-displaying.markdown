@@ -18,7 +18,7 @@ categories:
 
 第二个问题由于style.css定义了\* {list-style: none}，markdown被转换成html，ol的序号不显示。对CSS不是非常了解，所以用了一个简单而笨的办法：
 
-1. 把内容显示放在一个div里面，id为posts-content，在CSS里面定义#post-content ol {padding: 0px 1em; list-style-position: inside}，然后删除\* {list-style: none}
+1. 把内容显示放在一个div里面，id为post-content，在CSS里面定义#post-content ol {padding: 0px 1em; list-style-position: inside}，然后删除\* {list-style: none}
 
 2. 在lsidebar和rsidebar的style增加#l/rsidebar ul {list-style: none}，这样右边的sidebar里面的ul就不会显示圆点了。
 
