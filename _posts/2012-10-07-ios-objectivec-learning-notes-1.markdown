@@ -33,6 +33,7 @@ categories:
 
 9. 避免回路，比如：
 
+```
     #import "B.h"
      
     @protocol A
@@ -57,6 +58,8 @@ categories:
     @protocol A
      - foo:(id <B>)anObject;
     @endd
+
+```
 
 10. Properties Setter Semantics
 
