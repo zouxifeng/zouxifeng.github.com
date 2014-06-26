@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cause of UnsatisfiedLinkError
+title: Why doesn't make linking jni module?
 categories:
 - Java
 - JNI
