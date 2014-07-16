@@ -13,9 +13,13 @@ There are some ways to start a spring boot enabled project, using gradle or mave
 Maven
 =====
 
-Using MAVEN_OPTS environment variable with CLI or specify in the pom.xml.
+Set system property for maven:
 
-With "spring-boot-maven-plugin" in "configuration" section add following:
+```
+mvn -Drun.jvmArguments="-Djava.library.path=./libs" spring-boot:run
+```
+
+When working with pom.xml, add following with "spring-boot-maven-plugin" in "configuration" section:
 
 ```
 <jvmArguments>
