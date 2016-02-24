@@ -2,6 +2,5 @@ auto:        true
 server:      true
 lsi:         false
 pygments:    true
-markdown:    rdiscount
 permalink:   /:year/:month/:day/:title.html
 
